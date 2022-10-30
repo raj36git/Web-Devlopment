@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+</head>
+<body>
+    <h2>Courses</h2>
+    <ul>
+        <li>B-tech
+            <ol type="A"> Subject
+                <li>Engineering Maths</li>
+                <li>Engineering Physics</li>
+                <li>Engineering Chemistry</li>
+                <li>DE&&LA</li>
+            </ol>
+        </li>
+        <li>BBA</li>
+          <ol start="2">subjects
+            <li>accounts</li>
+            <li>business</li>
+            <li>english</li>
+            <li>menifesto</li>
+          </ol>
+
+
+        <li>MBBS
+            <ol reversed type="i">
+                <li>chech up</li>
+                <li>medicine</li>
+                <li>bandage</li>
+                <li>heartattact</li>
+                <li>fracture</li>
+            </ol>
+        </li>
+        <li>medicine
+            <ul>headache medecines
+                <li>paracetamol type
+                    <ol>
+                        <li>para1</li>
+                        <li>para2</li>
+                        <li>para3</li>
+                        <li>para4</li>
+                        <li>para5</li>
+                    </ol>
+                </li>
+                <li>cynide</li>
+                <li>methanol</li>
+                <li>coldie</li>
+                <li>bhajan</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
