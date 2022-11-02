@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Colors in CSS</h1>
+    
+    <h2 id="one">Colors1</h2>
+    <p class="color1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel modi, veniam est distinctio consequatur doloremque quos rem neque dicta. Vel porro beatae, dolor harum temporibus dignissimos. Vel vero aspernatur, dolorum cupiditate voluptates temporibus doloremque. Aut animi enim consequatur et nam dolorum saepe tenetur! Ullam modi omnis laboriosam autem, inventore voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati saepe tenetur quam adipisci assumenda similique quod explicabo, excepturi omnis deleniti.</p>
+
+    <h2 id="two">Colors2</h2>
+    <p class="color2">Lorem sit amet consectetur adipisicing elit. Vel modi, veniam est distinctio consequatur doloremque quos rem neque dicta. Vel porro beatae, dolor harum temporibus dignissimos. Vel vero aspernatur, dolorum cupiditate voluptates temporibus doloremque. Aut animi enim consequatur et nam dolorum saepe tenetur! Ullam modi omnis laboriosam autem, invenipsum, dolor sit amet consectetur adipisicing elit. Magni nam nisi quod, labore molestiae, enim quibusdam error maxime facere veniam dolores eius est non vero?</p>
+
+    <h2 id="three">Color3</h2>
+    <p class="color3">  Lorem ipsum dolor sit, amet consectsit amet consectetur adipisicing elit. Vel modi, veniam est distinctio consequatur doloremque quos rem neque dicta. Vel porro beatae, dolor harum temporibus dignissimos. Vel vero aspernatur, dolorum cupiditate voluptates temporibus doloremque. Aut animi enim consequatur et nam dolorum saepe tenetur! Ullam modi omnis laboriosam autem, invenetur adipisicing elit. Laboriosam quis officiis dolorem culpa quam quas magnam voluptates labore maxime!</p>
+</body>
+</html>
