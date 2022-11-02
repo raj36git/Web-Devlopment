@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Selector in HTML</h1>
+    <h2 class="element">Element Selector</h2>
+    <p class="element">element selctor selects any things you mentioned</p>
+
+    <h2 id="id1">Id Selector</h2>
+    <p>Id selector selects the specific unique things</p>
+
+    <h2 id="id2">Class Selector</h2>
+    <p>Class selector selects the element having specific class</p>
+</body>
+
+</html>
