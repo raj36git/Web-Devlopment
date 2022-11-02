@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+
+}
+p{
+    background-color: black;
+    color: white;
+}
+#id1{
+    background-color: blue;
+}
+.element{
+    color: rgb(232, 19, 72);
+}
