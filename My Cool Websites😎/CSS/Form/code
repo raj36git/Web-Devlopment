@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <form action="#">
+            <fieldset>
+                <legend>SIGN-UP:</legend>
+                <label for="fname">Enter Your First Name:: </label>
+                <input id="fname" type="text" placeholder="Raj" /> <br>
+                <label for="lname">Enter Your Last Name:: </label>
+                <input id="lname" type="text" placeholder="Yadav" />   <br /><br />
+                <label for="email">Enter Email</label>
+                <input id="email" type="email" placeholder="Email" />    <br /><br />
+                <label for="pass">Password</label>
+                <input id="password" type="password" placeholder="Password" />    <br /><br />
+                <!-- radio botton -->
+                <span>Gender::</span>
+                <label for="Male">Male</label>
+                <input type="radio" name="gender" id="Male" />
+                <label for="Female">Female</label>
+                <input type="radio" name="gender" id="Female" />          <br />
+                <!-- CHECKBOX -->
+                <span>Fav Programming Language::</span>
+                <input type="checkbox" name="lang" id="java" />
+                <label for="java">Java</label>
+                <input type="checkbox" name="lang" id="python" />
+                <label for="python">Python</label>           <br />
+                <!-- SELECT  -->
+                <label for="ticket">Select Ticket Class</label>
+                <select name="car" id="ticket">
+                <option value="Economy">Economy</option>
+                <option value="business">Business</option>
+                <option value="Athelete">athelete</option>
+            </select>
+                <br>
+                <input type="reset" />
+                <input type="submit" />
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
