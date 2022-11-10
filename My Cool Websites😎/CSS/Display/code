@@ -1,0 +1,80 @@
+#DISPLAY PROPERTY:: 1)INLINE: take space as it required
+                            : can't set height & width
+                    2)BLOCK: take whole block even if !required
+                           : can set height & width
+                    3)INLINE-BLOCK:  take space as it required
+                                  : can set height & width
+     #SAMPLE👇               
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display property</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .inline {
+        background-color: blue;
+        display: inline;
+        width: 600px;
+        height: 500px;
+
+    }
+
+    .block {
+        background-color: rgb(42, 210, 232);
+        width: 600px;
+        height: 500px;
+        text-align: center;
+        
+    }
+
+    .inl-block {
+        background-color: rgb(255, 0, 85);
+        display: inline-block;
+        
+        width: 100px;
+        height: 100px;
+    }
+    .block a{
+        background-color: rgb(255, 0, 85);
+        color: aliceblue;
+        display: inline-block;
+        text-decoration: none;
+    
+    }
+
+    .inl1-block {
+        background-color: rgb(92, 16, 244);
+        display: inline-block;
+        width: 300px;
+        height: 400px;
+        text-align: right;
+    }
+</style>
+
+<body>
+    <div class="inline">
+        Lorem ipsum dolor sit, pisci.
+    </div>
+    <div class="block">
+        <h2>Block Display</h2>
+        <a href="#">link</a>
+        Lorem ipsum dolor sit amet.
+    </div>
+    <div class="inl-block">
+        Lorem ipsum dolor sit amet.
+    </div>
+    <div class="inl1-block">
+        Lorem ipsum dolor sit amet.
+    </div>
+</body>
+
+</html>                 
