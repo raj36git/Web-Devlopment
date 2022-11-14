@@ -1,0 +1,36 @@
+CSS-Grid
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+        <div class="box">2
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis rem aperiam eligendi et enim, aspernatur tenetur ad perferendis etur quisquam earum nulla totam vel eos, dolorum harum commodi laboriosam itaque consequatur exercitationem similique ex in fugit quos magnam. Est fuga fugiat nam id rerum ducimus accusamus voluptatem laborum vitae, consectetur esse tempore corrupti minus temporibus necessitatibus odit molestiae at? Inventore aspernatur ipsa expedita sit rerum ducimus placeat dolores eius aut provident?
+        </div>
+        <div class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam repellat m in? Est adipisci quibusdam maxime molestias laudantium numquam blanditiis debitis ipsa! minima quaerat, quisquam saepe nobis! Quo, error fuga natus ad distinctio quae id architecto amet porro quis facilis laudantium modi sint debitis. Itaque similique error sint laudantium vitae harum enim iure cum quo inventore nisi, at repellendus dolores recusandae alias blanditiis ex accusantium illo! Reiciendis amet voluptates, corrupti porro quibusdam neque maiores?</div>
+        <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati quod vero quis qui. Eum accusamus officia explicabo eius itaque in unde voluptate tempora tas erat. Tenetur aliquam porro aspernatur architecto, veniam quos officia earum facere exercitationem qui, reprehenderit provident. Quisquam, consequatur a? Et itaque, distinctio incidunt repellendus odio excepturi nulla, atque voluptatibus officiis ipsum illum adipisci porro, illo deserunt eligendi? Reprehenderit, minima quaerat.</div>
+        <div class="box box5">
+            <footer>
+                Copyright@C 2022, All Right Reserved
+            </footer>
+        </div>
+        <!-- <div class="box">6</div>
+        <div class="box">7</div> -->
+        <!-- <div class="box">8</div>
+        <div class="box">9</div> -->
+    </div>
+</body>
+</html>
