@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: blue;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 112px 1fr 90px;
+    grid-template-columns: repeat(3, 1fr);
+  
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    list-style: none;
+    padding: 11px;
+  
+}
+.box{
+    background-color: rebeccapurple;
+    border: 2px solid white;
+   
+}
+.box1{
+     grid-column: 1/4;
+}
+.box5{
+    display: grid;
+    grid-column: 1/4;
+    justify-content: center;
+    padding-top: 29px;
+}
