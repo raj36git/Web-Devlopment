@@ -1,0 +1,19 @@
+//Data_types in JavaScript
+//nn bb ss u(shortcut):- Primitive
+let a = null;
+let b = 12; //number
+let c = BigInt(3435+5);
+let d = true; //can be false too //boolean
+let e = "raj"; //String
+let f = Symbol("I am a Symbol");
+let g = undefined;
+console.log(a,b,c,d,e,f,g);
+
+//Non-Primitive Type = Objects
+const item = {
+ "raj": true,
+ "Om": 55,
+ "Rohan": undefined
+}
+console.log(item["raj"])
+console.log(item["Rohan"])
