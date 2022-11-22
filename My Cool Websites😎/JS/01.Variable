@@ -1,0 +1,19 @@
+console.log("This is variable section of JS course");
+lwt a = 33;
+
+// let b = "hay";
+// console.log(b)
+// // var name = "harry"
+// // var name = "raj"
+// // console.log(name);
+// let name = "harry"
+//  name = "raj"
+// console.log(name);
+// const d = "Baby"
+// //d = "baba"  :- can't assign cuz it's constant
+// console.log(d);
+{
+  a = 44
+  console.log(a);
+}
+console.log(a);
