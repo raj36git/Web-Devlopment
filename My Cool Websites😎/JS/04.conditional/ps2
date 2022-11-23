@@ -1,0 +1,58 @@
+//Conditional Practice Set
+
+//Q1:- 
+let age = prompt("Enter your age");
+if(age>=10 && age<=20){
+  alert("yes")
+}
+
+//Q2
+//working days
+const days = "Friday"
+switch (days){
+  case 'monday':
+    console.log("first day")
+    break;
+  case 'tuesday':
+    console.log("2nd day")
+    break;
+  case 'Wednesday':
+    console.log("3rd day")
+    break;
+  case 'Thrusday':
+    console.log("5th day")
+    break;
+  case 'Friday':
+    console.log("6th day")
+    break;
+  case 'Saturday':
+    console.log("6th day")
+    break;
+      case 'sunday':
+    console.log("holiday")
+    break;
+    
+  default:
+    console.log("Invalid enter");
+}
+
+//Q3
+let n = prompt("Enter any number");
+if(n%2==0 && n%3==0){
+  console.log("divisible")
+} else{
+  alert("not");
+}
+
+
+//Q4
+let n = prompt("Enter any number");
+if(n%2==0 || n%3==0){
+  console.log("divisible")
+} else{
+  alert("not");
+}
+
+//Q5
+ let age = prompt("Enter your age");
+console.log(age>18? "can drive" : "can't drive")
