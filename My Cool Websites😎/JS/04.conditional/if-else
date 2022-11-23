@@ -1,0 +1,39 @@
+/* 
+//Conditional Expressions
+1.if
+2.if else
+3.if else-if */
+
+//Sample of IF
+/*
+ let a = prompt("What is your age?");
+  if(a>18){
+  alert("can vote");
+  }  
+*/
+
+//Sample of IF else
+/*
+ let a = prompt("What is your age?");
+  if(a>18){
+  alert("can vote");
+  } else{
+    alert("can't vote");
+  }
+*/
+
+//IF ELSE IF
+/* let a = prompt("What is your age?");
+  if(a<0){
+  alert("Invalid Age");
+  }
+  else if(a>0 && a<18){
+    alert("you are still kid,can't vote");
+  }
+  else if(a>18 && a<30){
+    alert("you are young,can vote");
+  }
+  else{
+    alert("can vote");
+  }
+*/
