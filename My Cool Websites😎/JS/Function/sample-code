@@ -1,0 +1,17 @@
+//Function
+// //function to add 3 num.
+// function addSum(a, b, c){
+//   return(a+b+c);
+// }
+// let ans = addSum(1,2,3);
+//  console.log("Sum of given number is " +ans);
+
+//Product of n
+let n = prompt("Enter number");
+function twoProduct(n){
+  return(i*n);
+}
+for(let i=1; i<=10; i++){
+  console.log(n +" * " + i + " = " + n*i );
+  // console.log(i*n);
+}
