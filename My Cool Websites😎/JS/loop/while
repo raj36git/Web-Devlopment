@@ -1,0 +1,16 @@
+//While loop
+
+let n = prompt("Enter n")
+let i = 0;
+while(i<n){
+  console.log(i);
+  i++;
+} 
+
+//d0-while loop
+let n = prompt("Enter n")
+let i = 6;
+do{
+    console.log(i);
+  i++;
+} while(i<n);
