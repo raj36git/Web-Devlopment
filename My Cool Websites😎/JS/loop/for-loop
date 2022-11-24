@@ -1,0 +1,29 @@
+//For loop
+//  program to print num 1 to 5
+ let n = prompt('Enter number');
+for(let i=1; i<=5; i++){
+  console.log(i)
+}
+
+//Program to print sum of first natural num
+let sum =0;
+let n = prompt('Enter number');
+for(let i=1; i<=n; i++){
+  sum += i;
+}
+console.log("sum of " +n + " natural num is " +sum);
+/*
+//for in loops
+ let obj={
+   'raj':45,    
+  'rohit': 22,
+  'raju': 33 
+ }
+for(let a in obj){
+  console.log("marks of " + a + " in maths is " +obj[a]);
+} */
+
+//for of loop:- use to print every character of string,  only apply on iterable obj i.e. string
+for(let b of "raj"){
+  console.log(b)
+}
