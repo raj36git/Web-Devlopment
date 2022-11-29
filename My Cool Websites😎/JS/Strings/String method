@@ -1,0 +1,22 @@
+//String methods
+
+let name = "rajkumar";
+// //find length of string
+console.log(name.length);
+// //convert into uppercase
+console.log(name.toUpperCase());
+// //convert into lowerrcase
+console.log(name.toLowerCase());
+console.log(name.slice(1,5)) //print from 1 to 5(5th not inculded)
+console.log(name.slice(1))  //print from 1 to last
+console.log(name.replace("ku", "a"))
+
+let name1 = "  bababa   "
+console.log(name1.trim())
+let fri = "assdpr"
+console.log(name.concat(" is friend of ", fri))
+console.log(fri[0]);
+console.log(fri[1]);
+console.log(fri[2]);
+console.log(fri[3]);
+console.log(fri[4]);
