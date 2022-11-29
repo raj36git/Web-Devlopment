@@ -1,0 +1,32 @@
+//String Function
+
+let name = "raj";
+let dxt = 'raj';
+console.log(name);
+console.log(dxt); 
+
+//Template literal:- `` backtick
+let name = "Harry"
+console.log(`${name} is a  best the programming teacher on YT`);
+
+//Escape sequence character
+// ''
+let clg = 'Kalinga\'good';
+let clgv = 'Kalinga\"good';
+console.log(clg)
+console.log(clgv)
+
+// ""
+let clg = "Kalinga\tgood";
+let clgv = "Kalinga\ngood";
+let clgr = "Kalinga\rgood";
+console.log(clg)
+console.log(clgv)
+console.log(clgr)
+console.log(clg.length);
+
+// \r: it cut length of string from start equal to length of string behind it and add reamaining part to end
+
+// here, it cut and delete baz(=length of mas) and add reamaining part(ir) to end ==mas+ir=masir
+let film = "Bazir\rmas"
+console.log(film);
