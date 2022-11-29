@@ -1,0 +1,13 @@
+//Q1
+console.log("har\"".length); //4
+
+//Q4
+let numS = "Please give Rs 1000";
+console.log(numS.length);
+console.log(numS.slice(15)); //1000
+
+//Q5
+let friend = "rajkumar"
+friend[4] = "u";
+console.log(friend) //rajkumar cuz string is immutable
+
