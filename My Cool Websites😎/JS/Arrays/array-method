@@ -105,3 +105,34 @@ let arr = [1,2,3,4,3]; //for of in array
 for(let x in arr){
   console.log(x);
  }
+
+
+//map() method : same as for-each but it create new array
+let arr = [1,42,3,4,5];
+ arr.map(element);
+function element(value, index, array){
+   console.log(value, index, array)
+}
+ console.log(arr)
+
+//other way to write fn
+let newArr = arr.map((value)=>{
+  return value;
+})
+console.log(newArr)
+
+//filter() method
+let arr = [44,882,686,82,82,43,22];
+ let newarr = arr.filter(element);
+ function element(i) {
+   return i<400;
+ }
+console.log(newarr);
+
+//reduce() method
+let arr = [1,2,3,4];
+ let arr1 = arr.reduce(element);
+ function element(j1,j2) {
+    return j1+j2;
+ }
+console.log(arr1)
