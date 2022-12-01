@@ -69,3 +69,15 @@ console.log(newArr);
 let arr1 = [1,2,3,4,5,6];
 arr1.reverse();
 console.log(arr1)
+//Loops for Array
+//0:for loop
+const books = ["physics", "chemistry", 'math', 'english'];
+for(let i=0; i<books.length; i++){
+  console.log(books[i]);
+}
+1.For-each loop
+let arr = [2,3,44,1,6,43];
+arr.forEach(element);
+ function element(value){
+   console.log(value);
+ }
