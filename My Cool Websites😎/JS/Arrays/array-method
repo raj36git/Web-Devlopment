@@ -93,3 +93,15 @@ let arr = [1,2,3,4,3]; //for of in array
 for(let x of arr){
   console.log(x);
 }
+
+//for-of loop: it will print every char
+let lang = "javascript"; //for of in string
+for(let x of lang){
+  console.log(x);
+}
+
+//for in loop
+let arr = [1,2,3,4,3]; //for of in array
+for(let x in arr){
+  console.log(x);
+ }
