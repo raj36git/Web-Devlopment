@@ -75,9 +75,21 @@ const books = ["physics", "chemistry", 'math', 'english'];
 for(let i=0; i<books.length; i++){
   console.log(books[i]);
 }
+
 1.For-each loop
 let arr = [2,3,44,1,6,43];
 arr.forEach(element);
  function element(value){
    console.log(value);
  }
+
+//for-of loop: it will print every char
+let lang = "javascript"; //for of in string
+for(let x of lang){
+  console.log(x);
+}
+
+let arr = [1,2,3,4,3]; //for of in array
+for(let x of arr){
+  console.log(x);
+}
