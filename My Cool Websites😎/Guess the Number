@@ -1,0 +1,19 @@
+/* This is a program in which you have to guess the number randomly inputed by server
+at alst you get your score and number of chances u tried    */
+
+let x = Math.floor((Math.random() * 100) + 1);
+let input;
+let chance = 0;
+do {
+   input = prompt("Enter");
+  if (x == input) {
+    alert("You have guess correct num");
+  } else if (x > input) {
+    alert("your input is smaller ");
+  } else {
+    alert("your input is greater ");
+  }
+chance++;
+} while(x != input);
+ console.log("You have taken ", chance, " chances");
+ console.log("Score is ",100-chance);
