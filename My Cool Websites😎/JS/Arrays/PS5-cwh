@@ -1,0 +1,49 @@
+//Practice Set5 Arrays and Array method
+
+//Q1
+//  let arr = [1,2,3,4];
+// let a = prompt("Enter a num");
+// a = Number.parseInt(a);
+// arr.push(a);
+// console.log(arr)
+// console.log(typeof a)
+
+//Q2:
+// let arr = [1, 2, 3, 4];
+// let a;
+// do{
+//   a = prompt("Enter a num");
+//   a = Number.parseInt(a);
+//   arr.push(a);
+// } while(a !=0);
+// console.log(arr);
+
+//Q3
+// let arr = [10, 27, 89, 300, 40];
+// let newarr = arr.filter(element);
+// function element(i) {
+//   return i % 10 == 0;
+// }
+// console.log(newarr);
+
+//Q4
+// let arr = [2, 3, 4, 5];
+// let newarr = arr.map(a);
+// function a(i){
+//   return i*i;
+// }
+// console.log(newarr);
+
+// //shortcut
+// let arr1 = arr.map((x)=>{
+//   return x*x;
+// })
+// console.log(arr1);
+
+//Q5: calculate the foctorial of 5!
+// let arr = [1, 2, 3, 4, 5];
+// let facto = arr.reduce((i, j) => {
+//   return i * j;
+// });
+// console.log(facto);
+
