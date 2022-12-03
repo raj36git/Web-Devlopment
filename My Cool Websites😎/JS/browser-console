@@ -1,0 +1,22 @@
+console.log("Hey raj is here")
+console.assert(55<5, "This is false");
+console.assert(5<55, "This is true");
+console.error("This info have some error")
+// console.clear("clr")
+const obj ={a:3, b:6, c:7};
+console.table(obj);
+console.warn("warning")
+console.info("info")
+
+console.time("For");
+for(i=0; i<=5; i++){
+  console.log("Hello World")
+}
+console.timeEnd("For")
+
+console.time("while");
+while(i<=5){
+  console.log("Hello World")
+  i++;
+}
+console.timeEnd("while")
