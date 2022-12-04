@@ -1,0 +1,11 @@
+//alert  prompt  confirm
+
+let a = prompt("Enter your name")
+if(a=="raj"){
+  alert("welcome");
+} else{
+  alert("invalid name")
+}
+function clickMe(){
+  confirm("welcome to JAET.code");
+}
