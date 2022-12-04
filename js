@@ -1,0 +1,7 @@
+
+console.log("Hello World")
+function AddNum(a,b,c){
+  return a + b + c;
+}
+let d = AddNum(2,33,44);
+console.log(d);
