@@ -1,0 +1,3 @@
+document.title = "jaet" //change the title
+document.documentElement  //extract all element
+document.title = "code-web"
