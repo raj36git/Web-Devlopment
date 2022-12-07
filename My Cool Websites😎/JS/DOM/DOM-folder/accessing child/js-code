@@ -1,0 +1,33 @@
+document.body.style.background = "orange";
+  //root node
+    console.log(document.documentElement)
+    console.log(document.body)
+    document.title = "jaet.code"
+    console.log(document.title)
+  
+    //children nodes
+    console.log(document.body.childNodes)
+    console.log(document.body.childNodes[0])
+    console.log(document.body.childNodes[1])
+    console.log(document.body.children)
+    console.log(document.body.firstChild) //it'll give #text
+    console.log(document.body.firstElementChild) //it'll give #ul
+   console.log(document.head.firstElementChild)
+
+   // converting children into array
+    let arr = Array.from(document.body.children)
+    console.log(arr)
+
+    //siblings
+    console.log(document.body.children[0] )//ul
+    const first = document.body.children[0].children[0]
+    const sec = document.body.children[0].children[1]
+    const third = document.body.children[0].children[2]
+    console.log(first) 
+    console.log(sec) 
+    console.log(third) 
+    console.log(first.nextElementSibling.textContent) 
+    console.log(sec.nextElementSibling.textContent) 
+    console.log(sec.previousElementSibling.textContent) 
+    console.log(third.previousElementSibling.textContent) 
+    
